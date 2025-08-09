@@ -1,21 +1,27 @@
 // Datos de productos (ejemplo)
 const productos = [
     { nombre: 'Gorro de lana', categoria: 'cabeza', imagen: './img/Gorros-de-hilo-corto-para-hombre-y-mujer-gorro-de-lana-el-stica-estilo-Hip-Hop.png_.jpg' },
-    { nombre: 'Remera', categoria: 'cuerpo', imagen: './img/logo.png' },
-    { nombre: 'Pantalón vaquero', categoria: 'piernas', imagen: 'https://cdn.pixabay.com/photo/2017/08/06/17/30/jeans-2591605_1280.jpg' },
-    { nombre: 'Medias de colores', categoria: 'pies', imagen: './img/71BPCpl-TqS._AC_UY879_.jpg' },
-    { nombre: 'Remera básica', categoria: 'cuerpo', imagen: 'https://cdn.pixabay.com/photo/2016/11/29/03/50/t-shirt-1867148_1280.jpg' },
-    { nombre: 'Falda plisada', categoria: 'piernas', imagen: 'https://cdn.pixabay.com/photo/2017/08/06/17/30/skirt-2591603_1280.jpg' },
-    { nombre: 'Zapatillas deportivas', categoria: 'pies', imagen: 'https://cdn.pixabay.com/photo/2016/11/29/03/50/sneakers-1867156_1280.jpg' },
-    { nombre: 'Sombrero de paja', categoria: 'cabeza', imagen: 'https://cdn.pixabay.com/photo/2017/08/07/19/22/hat-2606556_1280.jpg' },
-    { nombre: 'Gorro de lana', categoria: 'cabeza', imagen: './img/Gorros-de-hilo-corto-para-hombre-y-mujer-gorro-de-lana-el-stica-estilo-Hip-Hop.png_.jpg' },
-    { nombre: 'Buzo con capucha', categoria: 'cuerpo', imagen: 'https://cdn.pixabay.com/photo/2016/11/29/03/50/sweatshirt-1867147_1280.jpg' },
-    { nombre: 'Pantalón vaquero', categoria: 'piernas', imagen: 'https://cdn.pixabay.com/photo/2017/08/06/17/30/jeans-2591605_1280.jpg' },
-    { nombre: 'Medias de colores', categoria: 'pies', imagen: './img/71BPCpl-TqS._AC_UY879_.jpg' },
-    { nombre: 'Remera básica', categoria: 'cuerpo', imagen: 'https://cdn.pixabay.com/photo/2016/11/29/03/50/t-shirt-1867148_1280.jpg' },
-    { nombre: 'Falda plisada', categoria: 'piernas', imagen: 'https://cdn.pixabay.com/photo/2017/08/06/17/30/skirt-2591603_1280.jpg' },
-    { nombre: 'Zapatillas deportivas', categoria: 'pies', imagen: 'https://cdn.pixabay.com/photo/2016/11/29/03/50/sneakers-1867156_1280.jpg' },
-    { nombre: 'Sombrero de paja', categoria: 'cabeza', imagen: 'https://cdn.pixabay.com/photo/2017/08/07/19/22/hat-2606556_1280.jpg' }
+    { nombre: 'Sombrero', categoria: 'cabeza', imagen: 'https://http2.mlstatic.com/D_NQ_NP_959778-MLM45223042175_032021-O.jpg' },
+    { nombre: 'Viseras', categoria: 'cabeza', imagen: 'https://th.bing.com/th/id/R.55179df7369fcfe0cbb31c8906ef5881?rik=atigO1MCvN0oFQ&riu=http%3a%2f%2ffr.monnierparis.com%2fcdn%2fshop%2fproducts%2f3700943155498_000_aabedc6036.jpg%3fv%3d1671447291&ehk=pZH8inSY18kg%2bF3jrcLtNSVtOEYgpceLRtf1QGXqfK4%3d&risl=&pid=ImgRaw&r=0' },
+
+    // Cuerpo
+    { nombre: 'Remera', categoria: 'cuerpo', imagen: 'https://tse3.mm.bing.net/th/id/OIP.xcnYU9JOyeourfLmOwLxugHaHa?r=0&cb=thfvnext&w=680&h=680&rs=1&pid=ImgDetMain&o=7&rm=3' },
+    { nombre: 'Termicas', categoria: 'cuerpo', imagen: './img/termica.jpeg' },
+    { nombre: 'Buzo', categoria: 'cuerpo', imagen: 'https://i.pinimg.com/originals/24/d1/93/24d19355f83e41dc52255432b91dfbb9.jpg' },
+
+    // Piernas
+    { nombre: 'Pantalón Spandex', categoria: 'piernas', imagen: 'https://atlasoft.cl/wp-content/uploads/2024/05/jnli373500009_01_5.jpg' },
+    { nombre: 'Falda plisada', categoria: 'piernas', imagen: 'https://media.glamour.es/photos/664ef6ab360fb8e6fd409193/1:1/w_1280%2Cc_limit/falda%2520de%2520lino%2520massimo%2520dutti.jpeg' },
+    { nombre: 'Pantalón vaquero', categoria: 'piernas', imagen: 'https://tse3.mm.bing.net/th/id/OIP.GMGbujDGWTyApKs93TxmJAHaHa?r=0&cb=thfvnext&w=1200&h=1200&rs=1&pid=ImgDetMain&o=7&rm=3' },
+
+    // Pies
+    { nombre: 'Medias de Termicas', categoria: 'pies', imagen: './img/71BPCpl-TqS._AC_UY879_.jpg' },
+    { nombre: 'Zapatillas deportivas', categoria: 'pies', imagen: 'https://tse2.mm.bing.net/th/id/OIP.ctQoPnt1kCYENifzuN2IlwHaFj?r=0&cb=thfvnext&rs=1&pid=ImgDetMain&o=7&rm=3' },
+    { nombre: 'Zoquetes', categoria: 'pies', imagen: 'https://th.bing.com/th/id/R.10a1966cbeccc0d6b6d7750e597c2c38?rik=AwHDzGWe%2b3QmzA&riu=http%3a%2f%2fdcdn.mitiendanube.com%2fstores%2f001%2f017%2f905%2fproducts%2fdiseno-sin-titulo-2024-01-04t143812-125-e770bd00b968524be617043935726396-640-0.png&ehk=OqvpUq4YeiFdQCXKwiN3gMxbd6zLh0Ia08EkcR63fEI%3d&risl=&pid=ImgRaw&r=0' },
+
+    // Accesorios (agregado)
+    { nombre: 'Mochila', categoria: 'accesorios', imagen: './img/mochila.jpeg' },
+    { nombre: 'Cartera', categoria: 'accesorios', imagen: './img/cartera.jpeg' },
 ];
 
 // Función para cargar los productos en la página
